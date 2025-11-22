@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shuntoria Reid | Portfolio</title>
+  <!-- Optional Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-area">
+      <span class="logo-initials">SR</span>
+      <span class="logo-text">Shuntoria Reid</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#messages-section">Leave a Message</a>
+      <a href="#contact">Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / Intro -->
+    <section id="hero">
+      <div class="hero-text">
+        <h1>Shuntoria Reid</h1>
+        <p class="tagline">
+          Aspiring Software Developer | Data Annotation and AI Trainer | Plus-Size Fashion Entrepreneur | Future Tech Changemaker
+        </p>
+        <p>
+          I am an open minded, resilient, and spiritual Black woman building a life that blends tech, creativity,
+          and community impact. From owning a plus size fashion brand to learning web development and working in
+          data annotation, I am focused on turning my story into tools that empower others.
+        </p>
+      </div>
+      <div class="hero-photo">
+        <!-- Update src to your own image file in the images folder -->
+        <img src="/Users/shuntoriareid/Documents/GitHub/shuntoria-reid-portlio/images/image1.jpeg" alt="Photo of Shuntoria Reid" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        My name is Shuntoria Reid. I am a college student studying Health and Human Services, a Code the Dream
+        Intro to Programming student, a bug bounty beginner, and the owner of a plus size fashion brand,
+        Major Pressure Plustique. My journey includes overcoming homelessness, addiction, and justice system
+        involvement, and turning that pain into purpose.
+      </p>
+      <p>
+        I am passionate about building tools and experiences that uplift people  especially women, plus size
+        communities, and folks who grew up feeling overlooked. In tech, I love seeing my code come to life
+        in the browser, connecting APIs, and using data to drive experiences. In fashion and business, I focus
+        on confidence, representation, and community impact.
+      </p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-grid">
+        <article class="experience-item">
+          <h3>Founder and Owner  Major Pressure Plustique</h3>
+          <p>2018  Present  Greenwood, SC</p>
+          <p>
+            Built a plus size fashion brand that centers body confidence, self love, and bold style. Managed
+            online sales, social media, customer service, and brand storytelling while balancing school and family.
+          </p>
+        </article>
+
+        <article class="experience-item">
+          <h3>Beauty Professional  Kaj's Hair Care</h3>
+          <p>2003  Present (various roles)</p>
+          <p>
+            Developed strong client relationships, provided hair care services, and created a warm, community focused
+            environment that helped shape my work ethic and people skills.
+          </p>
+        </article>
+
+        <article class="experience-item">
+          <h3>Freelance AI Trainer and Data Annotator</h3>
+          <p>2024  Present</p>
+          <p>
+            Labeled images, text, and video data for AI training. Followed complex guidelines, maintained quality
+            standards, and worked with tools like bounding boxes, segmentation, and question answering for machine
+            learning projects.
+          </p>
+        </article>
+
+        <article class="experience-item">
+          <h3>Student  Code the Dream & Herzing University</h3>
+          <p>Ongoing</p>
+          <p>
+            Completed assignments in HTML, CSS, and JavaScript, built a portfolio site and an Open API project,
+            practiced debugging, responsive design, and using APIs like GitHub and Marvel. Also studying theories
+            of human development and human services to better understand and serve communities.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills Section (filled via JS) -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul id="skills-list" class="skills-grid">
+        <!-- JavaScript will insert skills here -->
+      </ul>
+    </section>
+
+    <!-- Projects Section (GitHub repos via API) -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        These are some of my public GitHub repositories, including this portfolio and my Open API project.
+        They show my growth in HTML, CSS, JavaScript, APIs, and debugging.
+      </p>
+      <ul id="project-list" class="projects-grid">
+        <!-- JavaScript will insert projects here using the GitHub API -->
+      </ul>
+    </section>
+
+    <!-- Leave a Message Section -->
+    <section id="messages-section">
+      <h2>Leave a Message</h2>
+      <form id="leave-message">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">Submit</button>
+      </form>
+
+      <section id="messages">
+        <h2>Messages</h2>
+        <ul id="message-list">
+          <!-- JavaScript will add messages here -->
+        </ul>
+      </section>
+    </section>
+
+    <!-- Connect / Contact Section -->
+    <section id="contact">
+      <h2>Connect with Me</h2>
+      <div class="connect-grid">
+        <div>
+          <p>Email</p>
+          <!-- Replace with your real email if you want -->
+          <a href="mailto:shuntoriareid240@gmail.com">shuntoriareid240@gmail.com</a>
+        </div>
+        <div>
+          <p>GitHub</p>
+          <a href="https://github.com/shanny2022" target="_blank" rel="noopener noreferrer">
+            github.com/shanny2022
+          </a>
+        </div>
+        <div>
+          <p>LinkedIn</p>
+          <!-- Replace with your real LinkedIn link -->
+          <a href="https://www.linkedin.com/in/shuntoria-reid/" target="_blank" rel="noopener noreferrer">
+            LinkedIn Profile
+          </a>
+        </div>
+        <div>
+          <p>Instagram  Quanessa Reid</p>
+          <!-- Replace with your real Instagram handle -->
+          <a href="https://www.instagram.com/quanessareid" target="_blank" rel="noopener noreferrer">
+            @quanessareid
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footer-text"></p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
